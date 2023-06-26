@@ -47,3 +47,5 @@ switch (diaSem) {
         console.log('[ERRO] Dia inválido!')
         break
 }
+
+// O switch não deve ser usado para testar intervalos, mas é perfeito para percorrer e encontrar valores pontuais.

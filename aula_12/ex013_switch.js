@@ -1,10 +1,11 @@
-
+// Condição múltipla 
+// Note que o switch não é uma condição é uma expressão, mas ele serve para lidar com condições.
 autenticado = true
 
 switch (autenticado) {
     case true:
         console.log('Usuário logado')
-        break
+        break // breaks são obrigatórios, eles servem para que o codigo pare de procurar dentro do switch quando a condição for verdadeira
     case false:
         console.log('Usuário não autenticado')
 }
