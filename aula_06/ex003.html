@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(176, 176, 199);
+            color: white; /* Comentário em Css */
+            font: normal 25pt Arial;
+        }
+
+        h1 {
+            color: rgb(222, 246, 3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--Isso é um comentário-->
+    <p>Já me livrei da maldição.</p>
+
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var soma = n1 + n2
+        window.alert('A soma dos valores é ' + soma)
+
+
+        var valor = Number.parseFloat(window.prompt('Digite o valor do produto: '))
+        var dinheiro = Number.parseFloat(window.prompt('Digite o valor recebido: '))
+        var troco = dinheiro - valor
+        window.alert('Seu troco é ' + troco)
+
+        var cobertura = 3
+        var custo = parseFloat(prompt('Digite o custo total: '))
+        var preco = parseFloat(prompt('Digite o valor de venda do produto: '))
+        var lucro = preco - custo - cobertura
+        window.alert('O seu lucro é de R$ ' + lucro + ',00.')
+
+        var quantidadeAlunos = parseInt(prompt('Digite a quantidade de alunos na sala'))
+        var quantidadeCarteiras = parseInt(prompt('Digite a quantidade de carteiras por sala'))
+        var diferencaAlunosCarteiras = quantidadeCarteiras - quantidadeAlunos
+        alert('Você vai precisar de ' + diferencaAlunosCarteiras + ' para o evento.')
+
+        //Number(n) n representa o numero recebido essa forma de escrever é mais recente e transforma a string
+
+        var n1 = Number(prompt('Digite um número: '))
+        var n2 = Number(prompt('Digite outro número: '))
+        var soma = n1 + n2
+        alert('A soma dos valores é ' + String(soma) + '.')
+        //alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`) - outra forma de escrever o mesmo que o de cima
+        //É chamada de template strings
+
+        // Para converter de numero para string String(n) ou n.toString
+
+
+ 
+
+
+
+    </script>
+</body>
+</html>

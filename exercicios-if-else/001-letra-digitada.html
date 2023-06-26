@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letra Digitada</title>
+    <style>
+        body {
+            background: rgb(177, 200, 250);
+            font: normal 15pt Arial;
+        }
+
+        h1, p {
+            color: rgb(148, 94, 218);
+            text-align: center;
+        }
+
+        section {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+        }
+
+        input {
+            border-radius: 15px;
+            padding: 15px;
+            margin: auto;
+        }
+
+        button {
+            background: rgb(120, 136, 228);
+            border: none;
+            border-radius: 15px;
+            color: white;
+            padding: 10px;
+        }
+        
+        #res {
+            padding: 15px;
+        }
+     
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>É vogal ou consoante?</h1>
+
+            <p>Digite apenas UMA letra aqui</p>
+
+            <input id="letra" type="text">
+
+            <button onclick="verificar()">Verificar</button>
+        </div>
+
+        <div id="res">
+
+        </div>
+    </section>
+
+    <script>
+        function verificar() {
+            var letra = document.querySelector('input#letra').value
+            var res = document.querySelector('div#res')
+            letra = letra.toLowerCase()
+            
+            if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
+                res.innerHTML = `Você digitou a letra <strong>${letra}</strong>, e esta letra é uma vogal.`               
+            } else {
+                res.innerHTML = `Você digitou a letra <strong>${letra}</strong>, e esta letra é uma consoante.`
+            }
+
+        }
+
+    </script>
+    
+</body>
+</html>

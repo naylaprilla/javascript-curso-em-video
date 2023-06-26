@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatar Strings e Numeros</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+    //Atributos: s.length  s.toUpperCase   s.toLowerCase
+
+    var nome = prompt('Qual é o seu nome?')
+    document.write(`Olá, ${nome} ! Seu nome tem ${nome.length} letras.</br>`)
+    // .writeln - quebra para a proxima linha igual à tag <br>
+    document.write(`Seu nome em maiusculas é ${nome.toUpperCase()}</br>`)
+    document.write(`Seu nome em minusculas é ${nome.toLowerCase()}</br>`)
+
+    var bichinho = prompt('Qual é o nome do seu bichinho?')
+    document.write(`Seu bichinho chama ${bichinho} . O nome do seu bichinho tem ${bichinho.length} letras.</br>`)
+
+    var corFavorita = prompt('Qual é a sua cor favorita?') 
+    document.write(`A sua cor favorita é ${corFavorita}. O nome da sua cor tem ${corFavorita.length} letras.<br>`)
+
+    var livro = prompt('Qual é o seu livro favorito?')
+    document.write(`Seu livro favorito é ${livro}. O nome do seu livro favorito tem ${livro.length} letras.<br>`)
+
+
+
+    </script>
+</body>
+</html>
