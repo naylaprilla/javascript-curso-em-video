@@ -10,10 +10,10 @@ function verificar() {
             var fsex = document.getElementsByName('radsex')
             var idade = ano - Number(fano.value)
             var genero = ''
-            var img = document.createElement('img')// criendo um elemento diretamente pelo javaScript
+            var img = document.createElement('img')// criando um elemento diretamente pelo javaScript
             img.setAttribute('id', 'foto')
-            //setAttribute serve para 
-            if(fsex[0].checked) {
+            //setAttribute serve para verificar se é homem ou mulher
+            if(fsex[0].checked) { //Aqui estamos verficando se é homem ou mulher e no else if internos a faixa etária
                 genero = 'Homem'
                 if (idade >= 0 && idade < 10) {
                     img.setAttribute('src', 'foto-bebe-m.png')
@@ -46,8 +46,8 @@ function verificar() {
                 }
 
         }
-        res.style.textAlign = 'center'
-        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
-        res.appendChild(img)
+        res.style.textAlign = 'center' // aqui estamos alinhando o texto ao centro da tela
+        res.innerHTML = `Detectamos ${genero} com ${idade} anos.` // Texto que aparece no card da tela
+        res.appendChild(img) // Imagem que aparece no card de acordo com a img.setAtribute que foi definida anteriormente nas condições.
     }
 }

@@ -14,3 +14,5 @@ Anotações:
     No módulo D aprendemos Condições com if e else - simples(if), compostas(if else), aninhadas(else if) e multiplas(switch case)
 
     O switch não deve ser usado para testar intervalos, mas é perfeito para percorrer e encontrar valores pontuais.
+
+    Estruturas de controle de repeticao com teste lógico no inicio(while), estrutura de repetição com teste lógico no final(while) e estrutura de repetição com controle(for).
