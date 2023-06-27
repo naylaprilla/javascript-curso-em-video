@@ -15,4 +15,8 @@ Anotações:
 
     O switch não deve ser usado para testar intervalos, mas é perfeito para percorrer e encontrar valores pontuais.
 
-    Estruturas de controle de repeticao com teste lógico no inicio(while), estrutura de repetição com teste lógico no final(while) e estrutura de repetição com controle(for).
+### Repetições Módulo E
+
+    Estruturas de controle de repeticao com teste lógico no inicio(while), estrutura de repetição com teste lógico no final(do while) e estrutura de repetição com controle(for). 
+    Condição / laço / repetição
+    while em inglês é o mesmo que enquanto
