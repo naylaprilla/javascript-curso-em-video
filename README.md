@@ -26,3 +26,6 @@ Anotações:
      2- Crie um breackpoint(ponto de inicio) na frente da variável que você quer inspecionar
      3- Com a tecla f12 é possível dar um passo a frente e assim acompanhar cada passo com a setinha amarela
      Em baixo da tela, na aba Debug Console, também é possível acompanhar o passo a passo escrito da execussão da instrução do programa.
+
+     Exercício 1 -  Contar de 5 até 12 pulando de 2 em 2 passos.
+     Exercício 2 - Tabuada
