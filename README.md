@@ -22,10 +22,17 @@ Anotações:
     while em inglês é o mesmo que enquanto
 
     Como usar o modo Debug do VsCode:
-     1- Clique em Run and Debug
-     2- Crie um breackpoint(ponto de inicio) na frente da variável que você quer inspecionar
-     3- Com a tecla f12 é possível dar um passo a frente e assim acompanhar cada passo com a setinha amarela
+     1- Clique em Run and Debug;
+     2- Crie um breackpoint(ponto de inicio) na frente da variável que você quer inspecionar;
+     3- Com a tecla f12 é possível dar um passo a frente e assim acompanhar cada passo com a setinha amarela;
      Em baixo da tela, na aba Debug Console, também é possível acompanhar o passo a passo escrito da execussão da instrução do programa.
 
-     Exercício 1 -  Contar de 5 até 12 pulando de 2 em 2 passos.
+     Exercício 1 -  Exemplo: Contar de 5 até 12 pulando de 2 em 2 passos.
+        A lógica usada foi o if para fazer a verificação se os campos haviam recebido os dados necessários para fazer a contagem,
+        No else,  mostramos o resultado na div resultado usando o resultado.innerHTML = algumaCoisa,
+        Criamos novas variáveis para usar no for e utilizar o intervalo na contagem, exemplo de 2 em 2, ou o que o usuário definir,
+        Usamos unicode emoji list para mostrar os emojis entre os números da contagem `\u{1F449}`, 
+        *importante notar que esse código do unicode só funciona entre crases,
+        Para exibir na tudo isso na tela, usamos novamente o resultado.innerHTML, mas com o += para que o JS concatene todas os resultados anteriores com esses.
+
      Exercício 2 - Tabuada
