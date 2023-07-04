@@ -103,4 +103,5 @@ Usando o for podemos fazer um percurso tradicional em um vetor ou array. Mas é 
     }
     let resultado = parImpar(11) // Sem essa chamada não acontece nada, a função fica apenas esperando.
 
+    Existem as funções dentro de uma variável, arrow functions e recursivas.
     Recursividade - é quando a função é chamada dentro dela mesma. ex.: funcao05.js
