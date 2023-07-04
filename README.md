@@ -63,7 +63,7 @@ Observações:
     ex.: let num = [5, 8, 4] índice: 0, 1, 2
     >>> Exercício feito no arquivo aula_15
 
-##### Percurso em vetores tradicional
+#### Percurso em vetores tradicional
 
 Usando o for podemos fazer um percurso tradicional em um vetor ou array. Mas é possível simplificar esse código, usando:
 
@@ -76,3 +76,31 @@ Usando o for podemos fazer um percurso tradicional em um vetor ou array. Mas é 
 
     - O método indexOf(7) procura um valor dentro do vetor retorna o index dele.
 
+
+#### Funções
+
+    As funções são ações executadas assim que são chamadas ou em decorrência de algum evento. As funções podem ter:
+    - Chamada da função, pode ser automatizada
+    - Um ou mais parâmetros de entrada, ou nenhum. Uma função pode receber parâmetros e retornar um resultado.
+    - Ação
+    - Retorno
+    Nem toda função tem parâmetro e nem retorno.
+
+    o onclick é uma função que executa um evento.
+
+    function ação(parâmetro){ // esse parâmetro é chamado de parâmetro formal
+        // aqui é a ação
+        return resultado // e aqui o retorno
+    }
+    ação(5) // chamada para a ação, esse 5 é considerado um parâmetro real
+
+    function parImpar(n) {
+        if(n%2 == 0) { // ação
+            return 'par'//retorno se verdadeiro
+        } else {
+            return 'impar' //retorno se falso
+        }
+    }
+    let resultado = parImpar(11) // Sem essa chamada não acontece nada, a função fica apenas esperando.
+
+    Recursividade - é quando a função é chamada dentro dela mesma. ex.: funcao05.js
