@@ -71,7 +71,8 @@ Usando o for podemos fazer um percurso tradicional em um vetor ou array. Mas é 
         - Para cada posição dentro váriavel composta valores
         - in é o mesmo que dentro e for é o mesmo que para
         - indice e vetor
+        - index é o mesmo que índice
     >>> aula_15/vetorNaTel.js
 
-    - O método indexOf(7) procura o valor 7 dentro do vetor retorna o index 3
+    - O método indexOf(7) procura um valor dentro do vetor retorna o index dele.
 
