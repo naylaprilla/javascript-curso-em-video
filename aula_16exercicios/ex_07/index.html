@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Analisador de Números</title>
+    </head>
+    <body>
+        <header>
+            <h1>Analisador de Números</h1>
+        </header>
+
+        <section>
+            <div>
+                <form class="formulario">
+                    <label>Número (entre 1 e 100): <input type="text" id="numero"></label>
+                    <button onclick="adicionarNumero(event)" type="button" id="btnAdicionar">Adicionar</button>            
+                </form>
+
+                <select name="numerosLista" id="numList" size="10" class="box_select">
+                    <option></option>
+                </select>
+                <button type="button">Finalizar</button>
+            </div>
+            
+            <div class="resultado" id="resultado">
+                
+            </div>
+        </section>
+
+        <footer>
+            &copy; CursoemVideo por Nayla Prilla 2023
+        </footer>
+        
+    </body>
+        <script src="script.js"></script>
+</html>
