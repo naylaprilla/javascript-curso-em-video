@@ -105,3 +105,21 @@ Usando o for podemos fazer um percurso tradicional em um vetor ou array. Mas é 
 
     Existem as funções dentro de uma variável, arrow functions e recursivas.
     Recursividade - é quando a função é chamada dentro dela mesma. ex.: funcao05.js
+
+    >>> Exercício 07
+
+    - criar um arquivo HTML, um CSS e um JavaScript
+    - linkar um arquivo com o outro
+    - criar os elementos seguindo o modelo
+    - na parte de lógica, o usuário poderá cadastrar números e haverá algumas validações e operações com esses números:
+        - Crie um input e um botão para o usuário digitar os números;
+        - Os números serão mostrados em um select, como no exercício anterior;
+        - Função para adicionar numeros
+            - chamar a função no botão do html
+        - Função para  Finalizar a lista
+        - Quando clicar no botão finalizar o resultado precisa mostrar:
+            - A quantidade de números cadastrados: mensagem -> 'Ao todo, temos X números cadastrados.'
+            - O maior número cadastrado: mensagem -> 'O maior valor informado foi X.'
+            - O menor número cadastrado: mensagem -> 'O menor valor informado foi X.' 
+            - A soma dos números: mensagem -> 'Somando todos os valores, temos X.'
+            - A média é soma todos os números e divide pela contagem desses números: mensagem -> 'A média dos valores digitados é X'   
