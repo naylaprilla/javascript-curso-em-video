@@ -122,4 +122,30 @@ Usando o for podemos fazer um percurso tradicional em um vetor ou array. Mas é 
             - O maior número cadastrado: mensagem -> 'O maior valor informado foi X.'
             - O menor número cadastrado: mensagem -> 'O menor valor informado foi X.' 
             - A soma dos números: mensagem -> 'Somando todos os valores, temos X.'
-            - A média é soma todos os números e divide pela contagem desses números: mensagem -> 'A média dos valores digitados é X'   
+            - A média é soma todos os números e divide pela contagem desses números: mensagem -> 'A média dos valores digitados é X'  
+
+
+O JavaScript é uma linguagem multiparadigma
+
+Próximos passos: 
+    Estudar 
+     - funções ->  arrow functions, callback, funções anonimas, iiffes
+     - Objetos -> POO
+     - modularizações
+     - RegEx
+     - JSON
+     - AJAX
+     - NodeJS
+     - Bibliotecas: Vue, Jquery, Angular
+
+No JS, o array pode receber valores de diferentes tipos.
+
+let amigo = {
+    nome:'José',
+    sexo:'M', // atributo do objeto
+    peso:85.4,
+    engordar(p){}
+}
+
+Para o JS, o array é um objeto e o objeto também é um objeto, porque são estruturas que vieram da mesma classe.
+this. é uma palavra de auto-referência do objeto
